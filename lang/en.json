@@ -1,0 +1,27 @@
+{
+  "CUSTOM5ETOOLS": {
+    "CategoryOther": "Other",
+    "Settings": {
+      "artCsv": {
+        "Name": "Artisan's Tools (Custom)",
+        "Hint": "Comma-separated list of custom Artisan's Tools. Example: Glass Cutter's Kit, Bone Carver's Kit"
+      },
+      "gameCsv": {
+        "Name": "Gaming Sets (Custom)",
+        "Hint": "Comma-separated list of custom Gaming Sets. Example: Tile Set, Shell Game"
+      },
+      "musicCsv": {
+        "Name": "Musical Instruments (Custom)",
+        "Hint": "Comma-separated list of custom Musical Instruments. Example: Handpan, War Pipes"
+      },
+      "vehicleCsv": {
+        "Name": "Vehicles (Custom)",
+        "Hint": "Comma-separated list of custom Vehicle proficiencies. Example: Sand Skiff, Ice Sled"
+      },
+      "otherCsv": {
+        "Name": "Other Tools (Custom)",
+        "Hint": "Comma-separated list of custom tools that do not fit other categories. Example: Navigator's Lenses, Rune Etcher"
+      }
+    }
+  }
+}
