@@ -4,6 +4,7 @@
 # Logs / temp
 *.log
 *.tmp
+custom-5e-tools.zip
 
 # Editors
 .vscode/
