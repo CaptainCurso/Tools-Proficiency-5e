@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.4] - 2026-02-11
+- Renamed the public module title to "Tools Proficiency 5e" to reduce naming confusion.
+- Kept module ID as `custom-5e-tools` for backward compatibility and update continuity.
+
 ## [1.0.3] - 2026-02-11
 - Fixed custom Other tools to merge into dnd5e's existing Other section.
 - Fixed duplicate custom key suffix format to avoid parser issues.

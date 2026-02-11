@@ -1,6 +1,6 @@
-# Custom 5e Tools (`custom-5e-tools`)
+# Tools Proficiency 5e (`custom-5e-tools`)
 
-This Foundry VTT module adds configurable custom tool proficiencies for the dnd5e system.
+Tools Proficiency 5e adds configurable custom tool proficiencies for the dnd5e system.
 
 ## What It Does
 
@@ -46,7 +46,7 @@ Command explanation:
 - Risk: this replaces the existing link or folder at exactly `.../modules/custom-5e-tools`.
 
 3. Start Foundry and open your dnd5e world.
-4. Go to **Game Settings -> Manage Modules** and enable **Custom 5e Tools**.
+4. Go to **Game Settings -> Manage Modules** and enable **Tools Proficiency 5e**.
 5. Go to **Game Settings -> Configure Settings**, fill in any of the five comma-separated fields, then save.
 6. Open a character sheet, open the tool proficiency configuration, and select your custom tools.
 
