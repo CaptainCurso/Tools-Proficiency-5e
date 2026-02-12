@@ -1,4 +1,4 @@
-export const MODULE_ID = "custom-5e-tools";
+export const MODULE_ID = "tools-proficiency-5e";
 
 export const CATEGORY_DEFINITIONS = Object.freeze([
   {

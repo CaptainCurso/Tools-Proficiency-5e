@@ -1,4 +1,4 @@
-# Tools Proficiency 5e (`custom-5e-tools`)
+# Tools Proficiency 5e (`tools-proficiency-5e`)
 
 Tools Proficiency 5e adds configurable custom tool proficiencies for the dnd5e system.
 
@@ -38,12 +38,12 @@ Tools Proficiency 5e adds configurable custom tool proficiencies for the dnd5e s
 
 ```bash
 ln -sfn "/Users/nicholasmcdowell/Documents/Codex Projects/Tools Proficiency 5e" \
-"/Users/nicholasmcdowell/Library/Application Support/FoundryVTT/Data/modules/custom-5e-tools"
+"/Users/nicholasmcdowell/Library/Application Support/FoundryVTT/Data/modules/tools-proficiency-5e"
 ```
 
 Command explanation:
 - `ln -sfn` creates or replaces a symbolic link (a filesystem shortcut).
-- Risk: this replaces the existing link or folder at exactly `.../modules/custom-5e-tools`.
+- Risk: this replaces the existing link or folder at exactly `.../modules/tools-proficiency-5e`.
 
 3. Start Foundry and open your dnd5e world.
 4. Go to **Game Settings -> Manage Modules** and enable **Tools Proficiency 5e**.
@@ -57,7 +57,7 @@ Command explanation:
 - Manifest URL (for Foundry install):
   - https://raw.githubusercontent.com/CaptainCurso/Tools-Proficiency-5e/main/module.json
 - Release ZIP URL (for Foundry install/update):
-  - https://github.com/CaptainCurso/Tools-Proficiency-5e/releases/latest/download/custom-5e-tools.zip
+  - https://github.com/CaptainCurso/Tools-Proficiency-5e/releases/latest/download/tools-proficiency-5e.zip
 
 ### Release Steps
 
@@ -66,16 +66,16 @@ Command explanation:
 
 ```bash
 cd "/Users/nicholasmcdowell/Documents/Codex Projects/Tools Proficiency 5e"
-zip -r custom-5e-tools.zip module.json scripts lang README.md LICENSE CHANGELOG.md
+zip -r tools-proficiency-5e.zip module.json scripts lang README.md LICENSE CHANGELOG.md
 ```
 
 Command explanation:
 - `zip -r` recursively archives the listed files and folders.
-- Risk: overwrites `custom-5e-tools.zip` if it already exists in this folder.
+- Risk: overwrites `tools-proficiency-5e.zip` if it already exists in this folder.
 
 3. Create a GitHub release tag like `v1.0.3`.
-4. Upload `custom-5e-tools.zip` as a release asset.
-5. Keep the asset filename exactly `custom-5e-tools.zip` so the `download` URL remains stable.
+4. Upload `tools-proficiency-5e.zip` as a release asset.
+5. Keep the asset filename exactly `tools-proficiency-5e.zip` so the `download` URL remains stable.
 
 ## Notes
 

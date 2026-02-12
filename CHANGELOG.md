@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0] - 2026-02-11
+- Changed module ID from `custom-5e-tools` to `tools-proficiency-5e`.
+- Updated release artifact name to `tools-proficiency-5e.zip`.
+- Updated manifest `download` URL to the new release asset name.
+
 ## [1.0.4] - 2026-02-11
 - Renamed the public module title to "Tools Proficiency 5e" to reduce naming confusion.
 - Kept module ID as `custom-5e-tools` for backward compatibility and update continuity.
